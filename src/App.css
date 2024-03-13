@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 480px;
+  height: 900px;
+  margin: 2rem auto;
+  background-image: url("./assets/app.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.app-hot {
+  width: 480px;
+  height: 900px;
+  margin: 2rem auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 167, 16, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("./assets//hot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.app-cold {
+  width: 480px;
+  height: 900px;
+  margin: 2rem auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 229, 255, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("./assets/cold.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-container {
+  width: 100%;
+  margin: 0 0 75px;
+  display: grid;
+}
+
+.search-bar {
+  color: black;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.location-container {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.temperature {
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 15px 25px;
+  font-size: 100px;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.weather-history {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.history-detail {
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.remove-button {
+  background-color: #007bff;
+  color: #fff;
+  width: 30%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  width: 30%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.edit-bar {
+  color: black;
+  font-size: 15px;
+  width: 30%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+  margin: 10px;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: #fff;
+  width: 30%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.edit-side {
+  display: flex;
+}
